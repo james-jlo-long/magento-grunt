@@ -80,3 +80,19 @@ should remain commented out.
 
     skin/frontend/xigen/default/font-awesome/xigen-README.txt
 
+## Using
+
+Grunt is setup to have two basic commands: `default` and `update`
+
+`default` will start watching for file changes and re-compile when changes are
+detected. To use it, simply type the following into the command line:
+
+    grunt
+
+This automatically runs the `default` task. Stop watching with `Ctrl + C`.
+
+`update` will compile the files without watching for changes. It's handy when
+you want to make a quick change or forgot to start watching for changes. To use
+it, simply type the following into the command line:
+
+    grunt update
